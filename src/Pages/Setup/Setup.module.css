@@ -1,0 +1,106 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.main section {
+  height: 100vh;
+}
+
+.left {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(4, 168, 249);
+  color: white;
+}
+
+.left h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.left p {
+  text-align: center;
+}
+
+.right {
+  width: 70%;
+  display: flex;
+  gap: .45rem;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(4, 168, 249);
+}
+
+.right h1 {
+  font-size: 2rem;
+}
+
+.right form{
+    display: flex;
+    gap: .45rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select{
+    width: 16rem;
+    border: 1px solid rgb(4, 168, 249);
+    background-color: aliceblue;
+    padding: 4px 8px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.select svg{
+    color: grey;
+    font-size: 20px;
+}
+
+.select select{
+    width: 100%;
+    color: rgb(4, 168, 249);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.right textarea{
+    width: 16rem;
+    padding: 4px 8px;
+    height: 4rem;
+    background-color: aliceblue;
+    border: 1px solid rgb(4, 168, 249);
+    border-radius: 7px;
+}
+
+.right textarea::placeholder{
+    color: rgb(4, 168, 249);
+}
+
+.alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.circle{
+    border: 4px solid rgb(4, 168, 249);
+    font-weight: 900;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    font-size: 4rem;
+    border-radius: 100%;
+}

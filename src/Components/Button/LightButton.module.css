@@ -1,0 +1,12 @@
+.light{
+    padding: 6px;
+    background-color: transparent;
+    margin: 0 auto;
+    width: 10rem;
+    border-radius: 30px;
+    font-weight: 500;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}

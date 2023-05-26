@@ -1,0 +1,153 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.main section{
+    height: 100vh;
+}
+
+.left{
+    width: 70%;
+    color: rgb(4, 168, 249);
+}
+
+.right{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(4, 168, 249);
+    color: white;
+}
+
+.left h1{
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.left form{
+    width: 100%;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left form a{
+  width: fit-content;
+}
+
+.left a{
+    color: rgb(4, 168, 249);
+    text-decoration: none;
+    width: 8rem;
+    margin: 0 auto;
+}
+
+.right h1{
+    margin: 0;
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.right p{
+    text-align: center;
+}
+
+.right a{
+    border-radius: 30px;
+}
+
+/*===============================================
+                 SIGN UP CSS
+================================================*/
+
+.signUpMain {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .signUpMain section {
+    height: 100vh;
+  }
+  
+  .signUpLeft {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(4, 168, 249);
+    color: white;
+  }
+  
+  .signUpLeft h1 {
+    margin: 0;
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .signUpLeft p {
+    text-align: center;
+  }
+  
+  .signUpLeft a {
+    border-radius: 30px;
+  }
+  
+  .signUpRight {
+    width: 70%;
+    color: rgb(4, 168, 249);
+  }
+  
+  .signUpRight h1 {
+    margin: 0.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .signups {
+    border: 1.5px solid rgb(4, 168, 249);
+    border-radius: 30px;
+    width: 17rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem auto;
+    margin-top: 0;
+    cursor: pointer;
+  }
+  
+  .signups span {
+    font-weight: 500;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
+  .signups svg {
+    font-size: x-large;
+    margin-left: 0.3rem;
+  }
+  
+  .BsApple {
+    color: black;
+  }
+  
+  .signUpRight form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3rem;
+    text-align: center;
+  }
+  
+  .signUpRight form button{
+      margin-top: 1.5rem;
+  }
