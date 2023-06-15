@@ -2,7 +2,6 @@ import React from "react";
 import classes from "./HomePage.module.css";
 import { FaHourglassEnd, FaCoins } from "react-icons/fa";
 import { TbCurrencyNaira } from "react-icons/tb";
-import { GrMoney } from "react-icons/gr";
 import { HiOutlineBuildingOffice } from "react-icons/hi2";
 import { AiOutlineMessage } from "react-icons/ai";
 

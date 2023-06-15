@@ -14,6 +14,10 @@ import Maintenance from "./Pages/Maintenance/Maintenance";
 import Settings from './Pages/Settings/Settings'
 
 const router = createBrowserRouter([
+  {path:'auth', element: <AuthPage/>},
+  {path:'auth/newpasskey', element: <ForgotPassword/>},
+  {path:'auth/newpasskey/newpassword', element: <NewPassword/> },
+  {path:'auth/setup', element: <Setup/> },
   {path: '', element: <RootLayout/>, errorElement: <ErrorPage/>, children: [
     {path:'', element: <HomePage/>},
     {path:'properties', element: <Properties/>},
@@ -21,11 +25,7 @@ const router = createBrowserRouter([
     {path:'payments', element: <Payments/>},
     {path:'maintenance', element: <Maintenance/>},
     {path:'settings', element: <Settings/>},
-  ] },
-  {path:'auth', element: <AuthPage/>},
-  {path:'auth/newpasskey', element: <ForgotPassword/>},
-  {path:'auth/newpasskey/newpassword', element: <NewPassword/> },
-  {path:'auth/setup', element: <Setup/> },
+  ] }
 ])
 
 function App() {

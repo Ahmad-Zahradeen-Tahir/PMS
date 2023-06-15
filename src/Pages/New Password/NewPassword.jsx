@@ -4,6 +4,7 @@ import { VscKey } from "react-icons/vsc";
 import classes from "./NewPassword.module.css";
 import Input from "../../Components/Input/Input";
 import DarkButton from "../../Components/Button/DarkButton";
+import { Link } from "react-router-dom";
 
 const NewPassword = () => {
   return (
@@ -29,7 +30,7 @@ const NewPassword = () => {
           <Input placeholder="Confirm Password" id="conpas" type="password">
             <VscKey />
           </Input>
-          <DarkButton type='submit' name='Save Password'/>
+          <Link to='/auth?mode=login'><DarkButton type='submit' name='Save Password'/></Link>
         </form>
       </section>
     </main>

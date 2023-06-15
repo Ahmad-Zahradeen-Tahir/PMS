@@ -1,0 +1,173 @@
+.main{
+    width: 100%;
+    height: 94vh;
+    background-color: rgb(234, 236, 238);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.top{
+    height: 20%;
+}
+
+.quick{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    padding: .4rem;
+}
+
+.quick h2{
+    margin: 0;
+    padding: .2rem;
+    padding-left: .5rem;
+    border-bottom: 1px solid grey;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.acts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: .5rem;
+    align-items: center;
+}
+
+.acts a{
+    width: 100%;
+}
+
+.act{
+    width: 100%;
+    color: rgb(4, 168, 249);
+    background-color: white;
+    border: 1.5px solid rgb(4, 168, 249);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: .2rem;
+    cursor: pointer;
+}
+
+.bottom{
+    height: 80%;
+    overflow: hidden;
+}
+
+.pays{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.title{
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-weight: 500;
+    padding: .3rem;
+    margin: 0 auto;
+}
+
+.title *{
+    text-align: center;
+}
+
+.pays ul{
+    list-style-type: none;
+    font-weight: 500;
+    padding: .5rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    height: 100%;
+    overflow: scroll;
+    padding-bottom: 1.2rem;
+}
+.pays ul li{
+    width: 100%;
+    display: flex;
+    padding: .4rem;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.hash{
+    width: 5%;
+}
+
+.name{
+    width: 25%;
+}
+
+.units{
+    width: 5%;
+}
+
+.amount{
+    width: 20%;
+}
+
+.rec{
+    width: 25%;
+}
+
+.date{
+    width: 20%;
+}
+
+.action{
+    width: 10%;
+}
+
+.view{
+    background-color: rgb(3, 167, 3);
+    color: white;
+    width: 100%;
+    padding: 4px;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pays ul::-webkit-scrollbar{
+    width: 6px;
+}
+.pays ul::-webkit-scrollbar-track{
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.pays ul::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.remind{
+    color: white;
+    width: 100%;
+    font-size: 9.5px;
+    padding: .4rem;
+    font-weight: 500;
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
