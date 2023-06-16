@@ -35,8 +35,15 @@ body{
     margin-right: 5rem;
 }
 
-.pms svg{
+.pms button,
+.pms svg,
+.nav-other button,
+.nav-other svg{
     height: fit-content;
+    color: rgb(2, 150, 255);
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
 }
 
 .nav-title{

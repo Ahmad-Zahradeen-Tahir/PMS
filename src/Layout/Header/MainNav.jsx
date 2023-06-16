@@ -10,13 +10,13 @@ const MainNav = () => {
       <nav className={classes.nav}>
         <div className={classes.pms}>
           <span>PMS</span>
-          <GiHamburgerMenu/>
+          <button><GiHamburgerMenu/></button>
         </div>
         <div className={classes['nav-title']}>
           <span>Dashboard</span>
         </div>
         <div className={classes['nav-other']}>
-          <BsBellFill/>
+          <button><BsBellFill/></button>
           <Link to='auth'><GiPowerButton/></Link>
         </div>
       </nav>

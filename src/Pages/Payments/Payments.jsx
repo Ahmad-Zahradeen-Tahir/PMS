@@ -124,7 +124,7 @@ const Payments = () => {
                 </span>
                 <span className={classes.action}>
                   {el.receipt ? (
-                    <ImEye className={classes.view} />
+                    <button className={classes.view}><ImEye/></button>
                   ) : (
                     <button className={classes.remind}>Send Reminder</button>
                   )}

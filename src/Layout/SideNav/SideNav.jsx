@@ -25,10 +25,10 @@ const SideNav = () => {
         <NavLink to='maintenance' className={({ isActive }) => (isActive ? classes.active : "")}><FaTools/> Maintenance</NavLink>
         <NavLink to='settings' className={({ isActive }) => (isActive ? classes.active : "")}><GrServices/> Settings</NavLink>
       </nav>
-      <div className={classes.support}>
+      <button className={classes.support}>
         <BiSupport/>
         <span>Customer Support</span>
-      </div>
+      </button>
     </section>
   )
 }

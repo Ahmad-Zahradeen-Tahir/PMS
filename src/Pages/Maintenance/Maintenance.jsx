@@ -66,7 +66,7 @@ const Maintenance = () => {
                     : "Pending"}
                 </span>
                 <span className={classes.action}>
-                  <ImEye className={classes.view} />
+                  <button className={classes.view}><ImEye/></button>
                 </span>
               </li>
             ))}

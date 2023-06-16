@@ -111,6 +111,11 @@
     text-align: center;
     font-size: 2rem;
   }
+
+  .signUpRight a{
+    margin-top: 1.5rem;
+    border-radius: 30px;
+  }
   
   .signups {
     border: 1.5px solid rgb(4, 168, 249);
@@ -146,8 +151,4 @@
     align-items: center;
     gap: .3rem;
     text-align: center;
-  }
-  
-  .signUpRight form button{
-      margin-top: 1.5rem;
   }
