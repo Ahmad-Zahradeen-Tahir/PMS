@@ -88,7 +88,7 @@ const Payments = () => {
             <Link>
               <button className={classes.act}>New Unit</button>
             </Link>
-            <Link to="/settings">
+            <Link to="/pms/settings">
               <button className={classes.act}>Settings</button>
             </Link>
           </div>

@@ -35,7 +35,7 @@ const LoginPage = () => {
               <VscKey />
             </Input>
             <Link to="newpasskey">Forgot Password?</Link>
-            <Link to='/'><DarkButton type="submit" name="sign in" /></Link>
+            <Link to='/pms/dashboard'><DarkButton type="submit" name="sign in" /></Link>
           </form>
         </section>
       </Fade>

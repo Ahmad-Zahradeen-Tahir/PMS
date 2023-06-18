@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./HomePage.module.css";
+import classes from "./Dashboard.module.css";
 import { FaHourglassEnd, FaCoins } from "react-icons/fa";
 import { TbCurrencyNaira } from "react-icons/tb";
 import { HiOutlineBuildingOffice } from "react-icons/hi2";
@@ -18,7 +18,7 @@ let DUMMY_TICKETS = [
   {name: 'Bola Tinubu', area: 'Asiwaju Barracks Housing', unit: 'A6', time: 18},
 ]
 
-const HomePage = () => {
+const Dashboard = () => {
   return (
     <main className={classes.main}>
       <h1>Dashboard</h1>
@@ -69,6 +69,9 @@ const HomePage = () => {
       <section className={classes.bottom}>
         <div className={classes.chart}>
           <h2>Revenue Chart</h2>
+          <div className={classes.graph}>
+            <p>Coming soon...</p>
+          </div>
         </div>
         <div className={classes.tickets}>
           <h2>Open tickets</h2>
@@ -93,4 +96,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Dashboard;

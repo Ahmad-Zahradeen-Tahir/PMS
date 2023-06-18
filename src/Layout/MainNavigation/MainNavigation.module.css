@@ -1,0 +1,44 @@
+.nav{
+    padding: .2rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+}
+
+.pms{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+
+.nav div{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.nav div a{
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: .3rem;
+    border-radius: 30px;
+    width: 5rem;
+    text-align: center;
+}
+
+.nav div a:hover,.nav div a.active{
+    background-color: black;
+    color: white;
+}

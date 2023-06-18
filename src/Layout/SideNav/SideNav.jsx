@@ -18,12 +18,12 @@ const SideNav = () => {
         </div>
       </div>
       <nav className={classes.nav}>
-        <NavLink to='' className={({ isActive }) => (isActive ? classes.active : "")}><MdOutlineDomain/> Dashboard</NavLink>
-        <NavLink to='properties' className={({ isActive }) => (isActive ? classes.active : "")}><HiOutlineBuildingOffice2/> Properties</NavLink>
-        <NavLink to='tenants' className={({ isActive }) => (isActive ? classes.active : "")}><FaUsers/> Tenants</NavLink>
-        <NavLink to='payments' className={({ isActive }) => (isActive ? classes.active : "")}><MdPayment/> Payments</NavLink>
-        <NavLink to='maintenance' className={({ isActive }) => (isActive ? classes.active : "")}><FaTools/> Maintenance</NavLink>
-        <NavLink to='settings' className={({ isActive }) => (isActive ? classes.active : "")}><GrServices/> Settings</NavLink>
+        <NavLink to='/pms/dashboard' className={({ isActive }) => (isActive ? classes.active : "")}><MdOutlineDomain/> Dashboard</NavLink>
+        <NavLink to='/pms/properties' className={({ isActive }) => (isActive ? classes.active : "")}><HiOutlineBuildingOffice2/> Properties</NavLink>
+        <NavLink to='/pms/tenants' className={({ isActive }) => (isActive ? classes.active : "")}><FaUsers/> Tenants</NavLink>
+        <NavLink to='/pms/payments' className={({ isActive }) => (isActive ? classes.active : "")}><MdPayment/> Payments</NavLink>
+        <NavLink to='/pms/maintenance' className={({ isActive }) => (isActive ? classes.active : "")}><FaTools/> Maintenance</NavLink>
+        <NavLink to='/pms/settings' className={({ isActive }) => (isActive ? classes.active : "")}><GrServices/> Settings</NavLink>
       </nav>
       <button className={classes.support}>
         <BiSupport/>

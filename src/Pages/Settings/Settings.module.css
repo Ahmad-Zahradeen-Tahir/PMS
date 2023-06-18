@@ -249,3 +249,17 @@
 .stand-data .data-item-data .dark-data{
     justify-content: center;
 }
+
+.soon{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soon p{
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+}

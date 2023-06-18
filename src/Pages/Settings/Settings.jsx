@@ -75,6 +75,12 @@ const Settings = () => {
     </div>
   );
 
+  const soon = (
+    <div className={classes.soon}>
+      <p>Coming soon...</p>
+    </div>
+  )
+
   return (
     <main className={classes.main}>
       <section className={classes.top}>
@@ -87,7 +93,7 @@ const Settings = () => {
             <Link>
               <button className={classes.act}>New Unit</button>
             </Link>
-            <Link to="/settings">
+            <Link to="/pms/settings">
               <button className={classes.act}>Settings</button>
             </Link>
           </div>
@@ -127,10 +133,10 @@ const Settings = () => {
             </NavLink>
           </div>
           {!units && !tenants && !leases && !rere && overPage}
-          {units && <h1>Units</h1>}
-          {tenants && <h1>tenants</h1>}
-          {leases && <h1>leases</h1>}
-          {rere && <h1>Requests</h1>}
+          {units && soon}
+          {tenants && soon}
+          {leases && soon}
+          {rere && soon}
         </div>
       </section>
     </main>

@@ -35,7 +35,7 @@ const Tenants = () => {
           <div className={classes.acts}>
             <Link><button className={classes.act}>New Lease</button></Link>
             <Link><button className={classes.act}>New Unit</button></Link>
-            <Link to="/settings"><button className={classes.act}>Settings</button></Link>
+            <Link to="/pms/settings"><button className={classes.act}>Settings</button></Link>
           </div>
         </div>
       </section>
