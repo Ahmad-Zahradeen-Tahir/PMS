@@ -17,7 +17,7 @@ const MainNav = () => {
         </div>
         <div className={classes['nav-other']}>
           <button><BsBellFill/></button>
-          <Link to='/auth'><GiPowerButton/></Link>
+          <Link to='/'><GiPowerButton/></Link>
         </div>
       </nav>
     </>
